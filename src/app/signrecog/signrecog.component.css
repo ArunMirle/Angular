@@ -53,14 +53,16 @@
 
 
 .btn-class {
+    padding-right: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .btn {
     padding: 10px 20px;
     background-color: #4CAF50;
     /* Green */
+    justify-content: space-between;
     border: none;
     color: white;
     text-align: center;
@@ -84,7 +86,7 @@
 
 
 .controls {
-
+    display: flex;
     justify-content: center;
     margin-top: 20px;
     /* Adjust as needed */
@@ -117,46 +119,28 @@
 /* Buttons */
 button {
     padding: 10px 20px;
+
     font-size: 16px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     background-color: #fff;
-    color: rgb(174, 0, 174);
+    color: rgb(174, 20, 0);
     margin-bottom: 10px;
     transition: background-color 0.3s, color 0.3s;
 }
+
+
 
 button:hover {
     background-color: #007bff;
     color: #fff;
 }
 
-.photo-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
 
-    justify-content: space-between;
-    /* Add some space between rows */
-}
 
 /* Body */
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Times New Roman", serif;
-    font-size: x-large;
 
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-blend-mode: multiply;
-}
 
 .photo-gallery {
     width: 280px;
@@ -184,20 +168,9 @@ img {
 }
 
 /* Header */
-header h1 {
-    font-size: 45px;
-    font-weight: 600;
-    letter-spacing: -.005em;
-    text-align: center;
-    font-family: "Times New Roman", serif;
-}
 
 /* About Section */
-section#about {
-    color: black;
-    padding-top: 800px;
-    text-align: center;
-}
+
 
 .about-content {
     display: flex;
@@ -238,7 +211,7 @@ section#about {
 
 
 .responseClass {
-    font: size 300px;
+    font-size: 50px;
     /* Adjust as needed */
     text-align: center;
     margin-top: 20px;
@@ -250,10 +223,7 @@ section#about {
 }
 
 /* Video Response */
-.responseClass {
-    font-family: "Times New Roman", serif;
-    font-size: 100px;
-}
+
 
 /* Main Heading */
 .main-heading h2 {
@@ -265,29 +235,24 @@ section#about {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+
 }
 
 .clear-button,
 .speak-button {
     padding: 10px 20px;
-    background-color: #4CAF50;
-    /* Green */
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+
     font-size: 16px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+    border: none;
     border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(174, 20, 0);
+    margin-bottom: 10px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.clear-button:hover,
-.speak-button:hover {
-    background-color: #45a049;
-    /* Darker green */
-}
+
 
 
 /* Left Side Paragraph */
@@ -298,8 +263,4 @@ section#about {
 
 .center {
     text-align: center;
-}
-
-p {
-    font-size: 20px;
 }
