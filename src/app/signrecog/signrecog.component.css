@@ -75,6 +75,11 @@
     /* Adjust as needed */
 }
 
+video {
+    width: 90%;
+    height: 55vh;
+}
+
 .video-content {
     text-align: center;
 }
@@ -96,6 +101,6 @@
     cursor: pointer;
     background-color: #fff;
     color: rgb(96, 0, 174);
-     margin-bottom: 10px;
+    margin-bottom: 10px;
     transition: background-color 0.3s, color 0.3s;
 }

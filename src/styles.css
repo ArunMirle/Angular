@@ -18,16 +18,6 @@ body {
 }
 
 /* Video */
-video {
-    width: -webkit-fill-available   ;
-    height: 55vh;
-}
+
 
 /* Left Side */
-.left-side {
-    width: 50%;
-    background-color: rgb(180, 179, 179);
-    padding: 20px;
-    border-radius: 10px;
-    height: auto;
-}
