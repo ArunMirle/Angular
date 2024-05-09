@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { SignlearnComponent } from '../signlearn/signlearn.component';
+import { SignrecogComponent } from '../signrecog/signrecog.component';
 
 @Component({
   selector: 'app-intro',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink,SignlearnComponent,SignrecogComponent],
   templateUrl: './intro.component.html',
   styleUrl: './intro.component.css'
 })

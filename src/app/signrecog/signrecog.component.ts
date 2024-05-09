@@ -1,10 +1,12 @@
 import { ChangeDetectorRef, Component, ElementRef, ViewChild } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { SignlearnComponent } from '../signlearn/signlearn.component';
+import { IntroComponent } from '../intro/intro.component';
 
 @Component({
   selector: 'app-signrecog',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, SignlearnComponent, IntroComponent],
   templateUrl: './signrecog.component.html',
   styleUrl: './signrecog.component.css'
 })

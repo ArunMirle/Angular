@@ -1,40 +1,47 @@
 <div class="btnid">
-  <button routerLink="/">Home</button>
+  <button type="button" class="btn btn-primary" routerLink="/">Home</button>
 </div>
-
 <div class="container">
-  <div class="left-side" id="dynamicContentLeft">
-    <h1>Introduction</h1>
-    <p>This research paper presents SymbolSync, a system designed to bridge communication gaps between
-      individuals with hearing impairments and the broader community. SymbolSync leverages the EfficientNetv2
-      architecture for efficient sign language recognition, enabling real-time interpretation of gestures.
-      Through deep learning techniques, SymbolSync provides instantaneous translation of sign language into
-      text or spoken language, facilitating effective communication for individuals with hearing impairments.
-    <p>
-    <div class="photo-gallery">
-      <div class="photo-row">
-        <img src="/assets/Images/photo1.jpg" class="image-spacing" alt="Photo 1" class="gallery-photo">
-
-        <img src="/assets/Images/photo2.jpg" class="image-spacing" alt="Photo 2" class="gallery-photo">
+  <div class="row">
+    <div class="col-md-6 left-side">
+      <h1 class="text-center">Introduction</h1>
+      <p>This research paper presents SymbolSync, a system designed to bridge communication gaps between individuals
+        with hearing impairments and the broader community. SymbolSync leverages the EfficientNetv2 architecture for
+        efficient sign language recognition, enabling real-time interpretation of gestures. Through deep learning
+        techniques, SymbolSync provides instantaneous translation of sign language into text or spoken language,
+        facilitating effective communication for individuals with hearing impairments.</p>
+      <div class="row">
+        <div class="col-md-6 ">
+          <img src="/assets/Images/photo1.jpg" class="img-fluid image-spacing" alt="Photo 1">
+        </div>
+        <div class="col-md-6">
+          <img src="/assets/Images/photo2.jpg" class="img-fluid image-spacing" alt="Photo 2">
+        </div>
       </div>
-      <div class="photo-row">
-        <img src="/assets/Images/photo3.jpg" class="image-spacing" alt="Photo 3" class="gallery-photo">
-        <img src="/assets/Images/photo4.jpg" class="image-spacing" alt="Photo 4" class="gallery-photo">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/assets/Images/photo3.jpg" class="img-fluid image-spacing" alt="Photo 3">
+        </div>
+        <div class="col-md-6">
+          <img src="/assets/Images/photo4.jpg" class="img-fluid image-spacing" alt="Photo 4">
+        </div>
       </div>
     </div>
-  </div>
-  <div class="right-side">
-    <div class="content">
-      <div class="logo">
-        <img src="/assets/Images/logo.png" alt="Project Logo" class="project-logo"> <!-- Added project logo -->
-      </div>
-      <div class="main-heading">
-        <h2>SymbolSync</h2>
-      </div>
-      <div class="btn-class">
-        <button routerLink="/signlearn">Sign Learning</button>
-        <button routerLink="/signrecog">Sign Recognition</button>
 
+
+    <div class="col-md-4 right-side mt-3">
+      <div class="content">
+        <div class="logo text-center">
+          <img src="/assets/Images/logo.png" alt="Project Logo" class="img-fluid project-logo">
+
+        </div>
+        <div class="main-heading text-center">
+          <h2>SymbolSync</h2>
+        </div>
+        <div class="btn-class text-center">
+          <button class="btn btn-primary" routerLink="/signlearn">Sign Learning</button>
+          <button class="btn btn-primary" routerLink="/signrecog">Sign Recognition</button>
+        </div>
       </div>
     </div>
   </div>

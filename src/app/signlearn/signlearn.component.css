@@ -1,208 +1,32 @@
-.poppins-thin,
-.poppins-extralight,
-.poppins-light,
-.poppins-regular,
-.poppins-medium,
-.poppins-semibold,
-.poppins-bold,
-.poppins-extrabold,
-.poppins-black,
-.poppins-thin-italic,
-.poppins-extralight-italic,
-.poppins-light-italic,
-.poppins-regular-italic,
-.poppins-medium-italic,
-.poppins-semibold-italic,
-.poppins-bold-italic,
-.poppins-extrabold-italic,
-.poppins-black-italic {
+h1,
+p {
     font-family: "Times New Roman", serif;
-}
 
-/* Container */
-.container {
-    display: flex;
-    width: 85%;
-    margin: 0 auto;
-    height: 90%;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.abc {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Times New Roman", serif;
-    font-size: x-large;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-blend-mode: multiply;
-}
-
-.btnid {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 9999;
-}
-
-.controls {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    /* Adjust as needed */
-}
-
-
-
-/* Left Side */
-.left-side {
-    width: 50%;
-    background-color: rgb(180, 179, 179);
-    padding: 20px;
-    border-radius: 10px;
-    height: auto;
-}
-
-.image-spacing {
-    padding-right: 40px;
-}
-
-/* Project Logo */
-.project-logo {
-    width: 200px;
-    height: auto;
-    border-radius: 20px;
-}
-.btn-class {
-    display: flex;
-    justify-content: space-between;
 }
 
 .btn {
-    padding: 10px 20px;
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.btn:hover {
-    background-color: #45a049; /* Darker green */
-}
-
-
-
-/* Buttons */
-button {
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     background-color: #fff;
-    color: rgb(174, 0, 174);
+    color: rgb(96, 0, 174);
     margin-bottom: 10px;
     transition: background-color 0.3s, color 0.3s;
 }
 
-button:hover {
+.btn:hover {
     background-color: #007bff;
     color: #fff;
 }
 
-.photo-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-
-    justify-content: space-between;
-    /* Add some space between rows */
-}
-
-/* Body */
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Times New Roman", serif;
-    font-size: x-large;
-
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-blend-mode: multiply;
-}
-
-.photo-gallery {
-    width: 280px;
-    /* Adjust this value as needed */
-    height: auto;
-    /* Maintain aspect ratio */
-    margin-right: 10px;
-    /* Add some space between photos */
-}
-
-/* General Text Styles */
-a,
-span,
-h1,
-h2,
-h3,
-h4 {
-    font-family: "Times New Roman", serif;
-}
-
-/* Images */
-img {
-    width: 100%;
+.left-side {
+    width: 50%;
+    background-color: rgb(180, 179, 179);
+    padding: 20px;
     border-radius: 10px;
-}
-
-/* Header */
-header h1 {
-    font-size: 45px;
-    font-weight: 600;
-    letter-spacing: -.005em;
-    text-align: center;
-    font-family: "Times New Roman", serif;
-}
-
-/* About Section */
-section#about {
-    color: black;
-    padding-top: 800px;
-    text-align: center;
-}
-
-.about-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-}
-
-.about-text {
-    margin-left: 10px;
-}
-
-.about-description {
-    font-weight: bold;
+    height: auto;
 }
 
 /* Right Side */
@@ -216,6 +40,14 @@ section#about {
     align-content: center;
 }
 
+.btnid {
+    position: absolute;
+    top: 20px;
+    /* Adjust as needed */
+    left: 20px;
+    /* Adjust as needed */
+}
+
 /* Content */
 .content {
     background: rgba(192, 192, 192, 0.579);
@@ -224,39 +56,6 @@ section#about {
     border-radius: 6px;
 }
 
-
-
-.responseClass {
-    font: size 300px;
-    /* Adjust as needed */
-    text-align: center;
-    margin-top: 20px;
-    /* Adjust as needed */
+p {
+    font-size: 20px;
 }
-
-.video-content {
-    text-align: center;
-}
-
-/* Video Response */
-.responseClass {
-    font-family: "Times New Roman", serif;
-    font-size: 100px;
-}
-
-/* Main Heading */
-.main-heading h2 {
-    font-family: "Times New Roman", serif;
-    font-size: 50px;
-}
-
-/* Left Side Paragraph */
-.left-side p {
-    font-family: "Times New Roman", serif;
-    font-size: 22px;
-}
-
-.center {
-    text-align: center;
-}
-

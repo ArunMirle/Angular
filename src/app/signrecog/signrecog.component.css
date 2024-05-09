@@ -1,89 +1,27 @@
-.poppins-thin,
-.poppins-extralight,
-.poppins-light,
-.poppins-regular,
-.poppins-medium,
-.poppins-semibold,
-.poppins-bold,
-.poppins-extrabold,
-.poppins-black,
-.poppins-thin-italic,
-.poppins-extralight-italic,
-.poppins-light-italic,
-.poppins-regular-italic,
-.poppins-medium-italic,
-.poppins-semibold-italic,
-.poppins-bold-italic,
-.poppins-extrabold-italic,
-.poppins-black-italic {
-    font-family: "Times New Roman", serif;
-}
-
-/* Container */
-.container {
-    display: flex;
-    width: 85%;
-    margin: 0 auto;
-    height: 90%;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.abc {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Times New Roman", serif;
-    font-size: x-large;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-blend-mode: multiply;
-}
-
 .btnid {
     position: absolute;
     top: 20px;
+    /* Adjust as needed */
     left: 20px;
-    z-index: 9999;
-}
-
-
-.btn-class {
-    padding-right: 20px;
-    display: flex;
-    justify-content: space-around;
+    /* Adjust as needed */
 }
 
 .btn {
     padding: 10px 20px;
-    background-color: #4CAF50;
-    /* Green */
-    justify-content: space-between;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+    border: none;
     border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(96, 0, 174);
+    margin-bottom: 10px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .btn:hover {
-    background-color: #45a049;
-    /* Darker green */
+    background-color: #007bff;
+    color: #fff;
 }
-
-
-
-
-
 
 .controls {
     display: flex;
@@ -92,9 +30,6 @@
     /* Adjust as needed */
 }
 
-
-
-/* Left Side */
 .left-side {
     width: 50%;
     background-color: rgb(180, 179, 179);
@@ -102,92 +37,6 @@
     border-radius: 10px;
     height: auto;
 }
-
-.image-spacing {
-    padding-right: 40px;
-}
-
-/* Project Logo */
-.project-logo {
-    width: 200px;
-    height: auto;
-    border-radius: 20px;
-}
-
-
-
-/* Buttons */
-button {
-    padding: 10px 20px;
-
-    font-size: 16px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: #fff;
-    color: rgb(174, 20, 0);
-    margin-bottom: 10px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-
-
-button:hover {
-    background-color: #007bff;
-    color: #fff;
-}
-
-
-
-/* Body */
-
-
-.photo-gallery {
-    width: 280px;
-    /* Adjust this value as needed */
-    height: auto;
-    /* Maintain aspect ratio */
-    margin-right: 10px;
-    /* Add some space between photos */
-}
-
-/* General Text Styles */
-a,
-span,
-h1,
-h2,
-h3,
-h4 {
-    font-family: "Times New Roman", serif;
-}
-
-/* Images */
-img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-/* Header */
-
-/* About Section */
-
-
-.about-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-}
-
-.about-text {
-    margin-left: 10px;
-}
-
-.about-description {
-    font-weight: bold;
-}
-
-
 
 /* Right Side */
 .right-side {
@@ -200,6 +49,14 @@ img {
     align-content: center;
 }
 
+.btnid {
+    position: absolute;
+    top: 20px;
+    /* Adjust as needed */
+    left: 20px;
+    /* Adjust as needed */
+}
+
 /* Content */
 .content {
     background: rgba(192, 192, 192, 0.579);
@@ -209,9 +66,9 @@ img {
 }
 
 
-
 .responseClass {
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
     /* Adjust as needed */
     text-align: center;
     margin-top: 20px;
@@ -222,14 +79,6 @@ img {
     text-align: center;
 }
 
-/* Video Response */
-
-
-/* Main Heading */
-.main-heading h2 {
-    font-family: "Times New Roman", serif;
-    font-size: 50px;
-}
 
 .bottom-buttons {
     display: flex;
@@ -241,26 +90,12 @@ img {
 .clear-button,
 .speak-button {
     padding: 10px 20px;
-
     font-size: 16px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     background-color: #fff;
-    color: rgb(174, 20, 0);
-    margin-bottom: 10px;
+    color: rgb(96, 0, 174);
+     margin-bottom: 10px;
     transition: background-color 0.3s, color 0.3s;
-}
-
-
-
-
-/* Left Side Paragraph */
-.left-side p {
-    font-family: "Times New Roman", serif;
-    font-size: 22px;
-}
-
-.center {
-    text-align: center;
 }
