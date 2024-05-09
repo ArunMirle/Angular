@@ -17,6 +17,7 @@ export class SignrecogComponent {
   ngOnInit(): void {
     this.loadCameraPage();
   }
+  
   clearResponse(): void {
     const videoResponseElement = document.getElementById('videoResponse');
     if (videoResponseElement) {
