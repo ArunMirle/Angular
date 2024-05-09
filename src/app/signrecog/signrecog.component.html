@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 <div class="btnid">
     <button type="button" class="btn btn-primary" routerLink="/">Home</button>
 </div>
@@ -15,7 +17,8 @@
 
             <div id="videoResponse" class="responseClass">{{videoResponse}}</div>
             <div class="bottom-buttons">
-                <button class="speak-button btn btn-primary" (click)="speakResponse()">Speech Response</button>
+                <button class="speak-button btn btn-primary" (click)="speakResponse()">Speech Response <i
+                        class="fas fa-volume-up"></i></button>
                 <button class="clear-button btn btn-primary" (click)="clearResponse()">Clear</button>
             </div>
         </div>
